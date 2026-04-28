@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/coin.gd" id="1"]
+[ext_resource type="SpriteFrames" path="res://resources/coin_frames.tres" id="2"]
+
+[sub_resource type="CircleShape2D" id="1"]
+radius = 6.0
+
+[node name="Coin" type="Area2D"]
+collision_layer = 4
+collision_mask = 1
+script = ExtResource("1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("1")
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+texture_filter = 0
+sprite_frames = ExtResource("2")
+animation = &"spin"
+autoplay = "spin"

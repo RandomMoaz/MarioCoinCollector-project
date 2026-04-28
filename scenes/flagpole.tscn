@@ -1,0 +1,37 @@
+[gd_scene load_steps=4 format=3]
+[ext_resource type="Script" path="res://scripts/flagpole.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/items/flagpole.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/items/flag.png" id="3"]
+[sub_resource type="RectangleShape2D" id="1"]
+size = Vector2(8, 120)
+[node name="Flagpole" type="Area2D"]
+collision_layer = 0
+collision_mask = 1
+script = ExtResource("1")
+[node name="Pole1" type="Sprite2D" parent="."]
+texture_filter = 0
+position = Vector2(0, -8)
+texture = ExtResource("2")
+[node name="Pole2" type="Sprite2D" parent="."]
+texture_filter = 0
+position = Vector2(0, -24)
+texture = ExtResource("2")
+[node name="Pole3" type="Sprite2D" parent="."]
+texture_filter = 0
+position = Vector2(0, -40)
+texture = ExtResource("2")
+[node name="Pole4" type="Sprite2D" parent="."]
+texture_filter = 0
+position = Vector2(0, -56)
+texture = ExtResource("2")
+[node name="Pole5" type="Sprite2D" parent="."]
+texture_filter = 0
+position = Vector2(0, -72)
+texture = ExtResource("2")
+[node name="Flag" type="Sprite2D" parent="."]
+texture_filter = 0
+position = Vector2(-8, -68)
+texture = ExtResource("3")
+[node name="Col" type="CollisionShape2D" parent="."]
+position = Vector2(0, -40)
+shape = SubResource("1")
