@@ -11,7 +11,7 @@ Mario Coin Collector is a classic side-scrolling platformer that pays tribute to
 ### 🏠 Main Menu — Character Selection
 Choose your hero before starting your adventure. Each character has different abilities!
 
-![Character Selection Screen](screenshots/home.png)
+![Character Selection Screen](home.png)
 
 **Characters available:**
 - **Mario** — The balanced classic hero
@@ -24,7 +24,7 @@ Choose your hero before starting your adventure. Each character has different ab
 ### 🔥 Advanced Gameplay — Fire Power
 Power up and shoot fireballs to defeat enemies in the underground levels!
 
-![Fire Power Gameplay](screenshots/fire-gameplay.png)
+![Fire Power Gameplay](fire-gameplay.png)
 
 In this screenshot you can see the **W2-1 Underground** level featuring:
 - HUD with coin counter (3/25), score (15325), and active power-ups (x2, K2, Fire, T259, Ate5)
